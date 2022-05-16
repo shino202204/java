@@ -3,5 +3,7 @@ class Main {
     System.out.println("hello java!");
     Hello hello = new Hello();
     System.out.println(hello.hello("shino"));
+    Age age = new Age();
+    System.out.println(age.age(28));
   }
 }
