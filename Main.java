@@ -8,6 +8,6 @@ class Main {
     From from = new From();
     System.out.println(from.from("日本", "京都", "九州"));
     Food food = new Food();
-    System.out.println(food.food("お魚","ぶどう", "チーズ"));
+    System.out.println(food.food("お魚","ぶどう", "チーズ", "お茶"));
   }
 }
