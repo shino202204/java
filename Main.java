@@ -6,7 +6,7 @@ class Main {
     Age age = new Age();
     System.out.println(age.age(27));
     From from = new From();
-    System.out.println(from.from("日本", "京都", "九州"));
+    System.out.println(from.from("日本", "京都", "九州", "東京"));
     Food food = new Food();
     System.out.println(food.food("お魚","ぶどう", "チーズ", "お茶"));
   }
