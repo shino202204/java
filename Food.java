@@ -2,7 +2,7 @@ class Food {
   public String food(String food, String fruit, String cake, String drink, String cheese,
     String munchie, String k_food, String k_food2, String p_food, String j_food, String c_food, String c_food2,
     String c_food3, String c_food4, String c_food5, String c_food6, String c_food7, String c_food8,
-    String c_food9) {
+    String c_food9, String c_food10) {
     String message;
     message =  "好きな食べ物は" + food + "です";
     message += "/好きな果物は" + fruit + "です";
@@ -23,6 +23,7 @@ class Food {
     message += "/好きな中華料理7は" + c_food7 + "です";
     message += "/好きな中華料理8は" + c_food8 + "です";
     message += "/好きな中華料理9は" + c_food9 + "です";
+    message += "/好きな中華料理10は" + c_food10 + "です";
     return message;
   }
 }
