@@ -3,7 +3,7 @@ class Food {
     String munchie, String k_food, String k_food2, String p_food, String j_food, String c_food, String c_food2,
     String c_food3, String c_food4, String c_food5, String c_food6, String c_food7, String c_food8,
     String c_food9, String c_food10, String c_food11, String c_food12, String c_food13, String c_food14,
-    String c_food15) {
+    String c_food15, String c_food16) {
     String message;
     message =  "好きな食べ物は" + food + "です";
     message += "/好きな果物は" + fruit + "です";
@@ -30,6 +30,7 @@ class Food {
     message += "/好きな中華料理13は" + c_food13 + "です";
     message += "/好きな中華料理14は" + c_food14 + "です";
     message += "/好きな中華料理15は" + c_food15 + "です";
+    message += "/好きな中華料理16は" + c_food16 + "です";
     return message;
   }
 }
