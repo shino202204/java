@@ -1,7 +1,8 @@
 class Food {
   public String food(String food, String fruit, String cake, String drink, String cheese, String cheese2, String cheese3,
     String munchie, String k_food, String k_food2, String k_food3, String k_food4, String k_food5,
-    String k_food6, String k_food7, String k_food8, String k_food9, String k_food10, String p_food, String j_food,
+    String k_food6, String k_food7, String k_food8, String k_food9, String k_food10, String k_food11,
+    String p_food, String j_food,
     String c_food, String c_food2,
     String c_food3, String c_food4, String c_food5, String c_food6, String c_food7, String c_food8,
     String c_food9, String c_food10, String c_food11, String c_food12, String c_food13, String c_food14,
@@ -25,6 +26,7 @@ class Food {
     message += "/好きな韓国料理8は" + k_food8 + "です";
     message += "/好きな韓国料理9は" + k_food9 + "です";
     message += "/好きな韓国料理10は" + k_food10 + "です";
+    message += "/好きな韓国料理11は" + k_food11 + "です";
     message += "/好きなペルー料理は" + p_food + "です";
     message += "/好きな日本料理は" + j_food + "です";
     message += "/好きな中華料理は" + c_food + "です";
